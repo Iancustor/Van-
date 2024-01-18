@@ -1,0 +1,45 @@
+.heroSection {
+  background-color: whitesmoke;
+  min-height: 83vh;
+  border-radius: 14px;
+  .mainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .firstDiv {
+      .vanText {
+        font-size: 3rem;
+        font-weight: 800;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      span {
+        color: rgba(0, 8, 255, 0.858);
+        font-weight: 900;
+      }
+      .vanDescription {
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+  }
+  .searchVan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 10rem;
+    font-weight: 700;
+    background: linear-gradient(
+      rgba(0, 47, 255, 0.211),
+      rgba(255, 255, 255, 0.317),
+      rgba(0, 47, 255, 0.211)
+    );
+    .parcelBtn {
+      background: blue;
+      color: whitesmoke;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+    }
+  }
+}
